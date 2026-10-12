@@ -3,8 +3,20 @@
     "description": "PHP client for the Reputify API (api.reputify.io): reviews, scores, surveys, invitations, embeds, OAuth and webhook verification.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["reputify", "reviews", "reputation", "trustscore", "api", "sdk"],
+    "keywords": [
+        "reputify",
+        "reviews",
+        "reputation",
+        "trustscore",
+        "api",
+        "sdk"
+    ],
     "homepage": "https://api.reputify.io/",
+    "support": {
+        "issues": "https://github.com/servitbiz/reputify-php-sdk/issues",
+        "source": "https://github.com/servitbiz/reputify-php-sdk",
+        "docs": "https://api.reputify.io/"
+    },
     "require": {
         "php": ">=8.1",
         "ext-curl": "*",
@@ -14,10 +26,14 @@
         "phpunit/phpunit": "^10.5"
     },
     "autoload": {
-        "psr-4": { "Reputify\\": "src/" }
+        "psr-4": {
+            "Reputify\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "Reputify\\Tests\\": "tests/" }
+        "psr-4": {
+            "Reputify\\Tests\\": "tests/"
+        }
     },
     "scripts": {
         "test": "phpunit"
