@@ -3,6 +3,12 @@
     "description": "PHP client for the Reputify API (api.reputify.io): reviews, scores, surveys, invitations, embeds, OAuth and webhook verification.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "SERVIT Software Solutions",
+            "homepage": "https://servit.dev"
+        }
+    ],
     "keywords": [
         "reputify",
         "reviews",
